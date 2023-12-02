@@ -1,4 +1,5 @@
-/* reordered CSS in order of HTML elements as they appear in the index.html */
+/* reordered CSS in order of HTML elements as they appear in the index.html 
+removed redundant code */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -78,17 +79,6 @@ h2 {
     font-size: 36px;
 }
 
-/* removed redundant code */
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
 p {
     font-size: 16px;
 }
@@ -105,19 +95,6 @@ p {
     max-height: 200px;
 }
 
-/* removed repetive code */
-/* .search-engine-optimization {
-    max-height: 200px;
-}
-
-.online-reputation-management {
-    max-height: 200px;
-}
-
-.social-media-marketing {
-    max-height: 200px;
-} */
-
 /* grouped up main section ids */
 #search-engine-optimization,
 #online-reputation-management,
@@ -129,25 +106,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/* removed redundant code */
-/* #online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
 
 /* replaced .benefits class with aside element */
 aside {
@@ -167,51 +125,17 @@ aside {
     color: #ffffff;
 }
 
-/* removed redundant code */
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 /* removed class .benefit-lead */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* removed redudant code */
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 
 /* replaced footer class with footer element */
 footer {
