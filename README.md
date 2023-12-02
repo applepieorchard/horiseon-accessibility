@@ -8,7 +8,7 @@ From this project I have learned the various semantic tags that can be used in p
 
 ![A screenshot depicting the layout of the website.](assets/images/Screenshot.png)
 
-This site can be found on [GitHub Pages]()
+This site can be found on [GitHub Pages](https://applepieorchard.github.io/horiseon-website/)
 
 ## Installation
 
